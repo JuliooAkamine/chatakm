@@ -98,7 +98,7 @@ const handleLogin = (event) =>{
     chat.style.display = "flex"
 
     //conecta o usuario ao servidor
-    websocket = new WebSocket("ws://localhost:8080")
+    websocket = new WebSocket("wss://akmchat.onrender.com")
 
     websocket.onmessage = processMessage
     
