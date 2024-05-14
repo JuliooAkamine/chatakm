@@ -13,7 +13,7 @@
 }
 
 body{
-    background-color: darkslategray;
+    background-color: white;
     color: #f2f2f2;
 }
 .container{
@@ -29,7 +29,7 @@ body{
     max-width: 330px;
     background-color: #212121;
     border-radius: 5px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .login > h2 {
@@ -51,8 +51,8 @@ body{
     padding: 15px;
     font-size: 0.85rem;
     font-weight: 600;
-    background-color: #121212;
-    color: #f2f2f2;
+    background-color: white;
+    color: black;
     outline: none;
     border-radius: 5px;
 
@@ -99,7 +99,6 @@ body{
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: #191919;
     padding: 15px 20px;
     display: flex;
     align-items: center;
@@ -108,14 +107,18 @@ body{
 }
 
 .chat__input{
-    border: none;
-    padding: 15px;
-    border-radius: 8px;
+   
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 28px;
     flex-grow: 1;
-    background-color: #212121;
-    outline: none;
-    color:#f2f2f2;
+    color:black;
     font-size: 1rem;
+    outline: black;
+}
+
+.material-symbols-outlined{
+    color: black;
 }
 
 .chat__button{
@@ -140,8 +143,8 @@ body{
 }
 
 .message__self{
-    background-color: #f2f2f2;
-    color: #121212;
+    background-color: #177BF6;
+    color: white;
     border-radius: 10px 10px 0px 10px ;
     align-self: flex-end;
 
